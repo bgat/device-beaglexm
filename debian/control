@@ -13,7 +13,7 @@ Description: Root package for the Beagleboard XM device
 Depends:
  board-beaglexm,
  dtb-beaglexm,
- bootscr-am335x,
+ bootscr-omap3,
  mount-mmcblk0p1-as-boot,
  ptux-essential,
  baseconfig-ptux,
