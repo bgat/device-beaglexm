@@ -12,6 +12,7 @@ Description: Root package for the Beagleboard XM device
  the most generic, plain-vanilla functional configuration.
 Depends:
  board-beaglexm,
+ dtb-beaglexm,
  mount-mmcblk0p1-as-boot,
  ptux-essential,
  baseconfig-ptux,
