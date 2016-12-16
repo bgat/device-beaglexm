@@ -7,10 +7,12 @@ Standards-Version: 3.9.4
 
 Package: device-beaglexm
 Architecture: all
+Multi-Arch: foreign
 Description: Root package for the Beagleboard XM device
  This is the root package for the Beagleboard XM device.  It defines
  the most generic, plain-vanilla functional configuration.
 Depends:
+ default-root-sshkey-device,
  board-beaglexm,
  dtb-beaglexm,
  bootscr-omap3,
